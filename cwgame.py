@@ -1,6 +1,7 @@
 from cwplayer import Player
 from cwbuzzer import Buzzer
 import json
+import sys
 
 class Game():
 
@@ -9,13 +10,9 @@ class Game():
 		self.websocket = None
 		self.buzzer = Buzzer()
 		
-	def setWebsocket(self, websocket):
-		self.websocket = websocket
-		self.buzzer.setWebsocket = self.websocket
-		
 	def initBuzzer(self):
 		self.buzzer.initBuzzer()
-		
+
 	def addPlayer(self, startAddress, name):
 		self.player.append(Player(startAddress, name))
 		print(self.player)
@@ -26,5 +23,5 @@ class Game():
 			"player" : self.player
 		}
 		print(response)
-		self.websocket.sendMessage(json.dumps(response).encode("UTF-8"), False)
+		#self.websocket.send(json.dumps(response))
 		
