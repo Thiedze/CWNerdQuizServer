@@ -1,9 +1,9 @@
 class Question(object):
 
-    def __init__(self, params):
-        self.question = ""
-        self.blue = ""
-        self.orange = ""
-        self.green = ""
-        self.yellow = ""
-        self.answer = ""
+    def __init__(self, key, question):
+        self.question = question["question"]
+        self.blue = question["blue"]
+        self.orange = question["orange"]
+        self.green = question["green"]
+        self.yellow = question["yellow"]
+        self.answer = question["answer"]

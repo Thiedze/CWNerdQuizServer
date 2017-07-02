@@ -40,11 +40,14 @@ class Game():
 		for root, dirs, files in os.walk("quizzes"):
 			for file in files:
 				if file.endswith(".json") and file.split(".")[0] == quiz:
-					quiz = json.loads(open(os.path.join(root, file)).read(), object_hook=self.as_quiz)
-				
-					for category in quiz.categories:
-						for question in category.question:
-							print(question.question)
+					jsonFile = open(os.path.join(root, file)).read();
+					quiz = Quiz(**json.loads(jsonFile)['quiz'])
+		response = { 
+			"action" : "selectQuiz",
+			"quiz" : jsonFile
+		}
+		print("server send: %s" % response)
+		self.webSocket.write_message(json.dumps(response))
 	
 	def sendPlayers(self):
 		response = { 
