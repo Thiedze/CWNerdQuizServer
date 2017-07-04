@@ -1,7 +1,7 @@
 {
   "quiz": {
     "categories": {
-      "cat1": {
+      "Fiktionale Supercomputer": {
         "100": {
           "question": "\"cat1 100 question\"",
           "blue": "\"cat1 100 blue\"",
@@ -43,7 +43,7 @@
           "answer": "green"
         }
       },
-      "cat2": {
+      "Deutsche Game-Klassiker": {
         "100": {
           "question": "\"cat2 100 question\"",
           "blue": "\"cat2 100 blue\"",
@@ -85,7 +85,7 @@
           "answer": "green"
         }
       },
-      "cat3": {
+      "Dynamische Duos": {
         "100": {
           "question": "\"cat3 100 question\"",
           "blue": "\"cat3 100 blue\"",
@@ -127,7 +127,7 @@
           "answer": "green"
         }
       },
-      "cat4": {
+      "Der Weltraum": {
         "100": {
           "question": "\"cat4 100 question\"",
           "blue": "\"cat4 100 blue\"",
@@ -169,7 +169,7 @@
           "answer": "green"
         }
       },
-      "cat5": {
+      "Zeichentrickserien": {
         "100": {
           "question": "\"cat5 100 question\"",
           "blue": "\"cat5 100 blue\"",
