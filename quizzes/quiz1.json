@@ -1,216 +1,216 @@
 {
-  "quiz": {
-    "categories": {
-      "Fiktionale Supercomputer": {
-        "100": {
-          "question": "\"cat1 100 question\"",
-          "blue": "\"cat1 100 blue\"",
-          "orange": "cat1 100 orange",
-          "green": "cat1 100 green",
-          "yellow": "cat1 100 yellow",
-          "answer": "green"
-        },
-        "200": {
-          "question": "\"cat1 200 question\"",
-          "blue": "\"cat1 200 blue\"",
-          "orange": "cat1 200 orange",
-          "green": "cat1 200 green",
-          "yellow": "cat1 200 yellow",
-          "answer": "green"
-        },
-        "300": {
-          "question": "\"cat1 300 question\"",
-          "blue": "\"cat1 300 blue\"",
-          "orange": "cat1 300 orange",
-          "green": "cat1 300 green",
-          "yellow": "cat1 300 yellow",
-          "answer": "green"
-        },
-        "600": {
-          "question": "\"cat1 600 question\"",
-          "blue": "\"cat1 600 blue\"",
-          "orange": "cat1 600 orange",
-          "green": "cat1 600 green",
-          "yellow": "cat1 600 yellow",
-          "answer": "green"
-        },
-        "1000": {
-          "question": "\"cat1 1000 question\"",
-          "blue": "\"cat1 1000 blue\"",
-          "orange": "cat1 1000 orange",
-          "green": "cat1 1000 green",
-          "yellow": "cat1 1000 yellow",
-          "answer": "green"
-        }
-      },
-      "Deutsche Game-Klassiker": {
-        "100": {
-          "question": "\"cat2 100 question\"",
-          "blue": "\"cat2 100 blue\"",
-          "orange": "cat2 100 orange",
-          "green": "cat2 100 green",
-          "yellow": "cat2 100 yellow",
-          "answer": "green"
-        },
-        "200": {
-          "question": "\"cat2 200 question\"",
-          "blue": "\"cat2 200 blue\"",
-          "orange": "cat2 200 orange",
-          "green": "cat2 200 green",
-          "yellow": "cat2 200 yellow",
-          "answer": "green"
-        },
-        "300": {
-          "question": "\"cat2 300 question\"",
-          "blue": "\"cat2 300 blue\"",
-          "orange": "cat2 300 orange",
-          "green": "cat2 300 green",
-          "yellow": "cat2 300 yellow",
-          "answer": "green"
-        },
-        "600": {
-          "question": "\"cat2 600 question\"",
-          "blue": "\"cat2 600 blue\"",
-          "orange": "cat2 600 orange",
-          "green": "cat2 600 green",
-          "yellow": "cat2 600 yellow",
-          "answer": "green"
-        },
-        "1000": {
-          "question": "\"cat2 1000 question\"",
-          "blue": "\"cat2 1000 blue\"",
-          "orange": "cat2 1000 orange",
-          "green": "cat2 1000 green",
-          "yellow": "cat2 1000 yellow",
-          "answer": "green"
-        }
-      },
-      "Dynamische Duos": {
-        "100": {
-          "question": "\"cat3 100 question\"",
-          "blue": "\"cat3 100 blue\"",
-          "orange": "cat3 100 orange",
-          "green": "cat3 100 green",
-          "yellow": "cat3 100 yellow",
-          "answer": "green"
-        },
-        "200": {
-          "question": "\"cat3 200 question\"",
-          "blue": "\"cat3 200 blue\"",
-          "orange": "cat3 200 orange",
-          "green": "cat3 200 green",
-          "yellow": "cat3 200 yellow",
-          "answer": "green"
-        },
-        "300": {
-          "question": "\"cat3 300 question\"",
-          "blue": "\"cat3 300 blue\"",
-          "orange": "cat3 300 orange",
-          "green": "cat3 300 green",
-          "yellow": "cat3 300 yellow",
-          "answer": "green"
-        },
-        "600": {
-          "question": "\"cat3 600 question\"",
-          "blue": "\"cat3 600 blue\"",
-          "orange": "cat3 600 orange",
-          "green": "cat3 600 green",
-          "yellow": "cat3 600 yellow",
-          "answer": "green"
-        },
-        "1000": {
-          "question": "\"cat3 1000 question\"",
-          "blue": "\"cat3 1000 blue\"",
-          "orange": "cat3 1000 orange",
-          "green": "cat3 1000 green",
-          "yellow": "cat3 1000 yellow",
-          "answer": "green"
-        }
-      },
-      "Der Weltraum": {
-        "100": {
-          "question": "\"cat4 100 question\"",
-          "blue": "\"cat4 100 blue\"",
-          "orange": "cat4 100 orange",
-          "green": "cat4 100 green",
-          "yellow": "cat4 100 yellow",
-          "answer": "green"
-        },
-        "200": {
-          "question": "\"cat4 200 question\"",
-          "blue": "\"cat4 200 blue\"",
-          "orange": "cat4 200 orange",
-          "green": "cat4 200 green",
-          "yellow": "cat4 200 yellow",
-          "answer": "green"
-        },
-        "300": {
-          "question": "\"cat4 300 question\"",
-          "blue": "\"cat4 300 blue\"",
-          "orange": "cat4 300 orange",
-          "green": "cat4 300 green",
-          "yellow": "cat4 300 yellow",
-          "answer": "green"
-        },
-        "600": {
-          "question": "\"cat4 600 question\"",
-          "blue": "\"cat4 600 blue\"",
-          "orange": "cat4 600 orange",
-          "green": "cat4 600 green",
-          "yellow": "cat4 600 yellow",
-          "answer": "green"
-        },
-        "1000": {
-          "question": "\"cat4 1000 question\"",
-          "blue": "\"cat4 1000 blue\"",
-          "orange": "cat4 1000 orange",
-          "green": "cat4 1000 green",
-          "yellow": "cat4 1000 yellow",
-          "answer": "green"
-        }
-      },
-      "Zeichentrickserien": {
-        "100": {
-          "question": "\"cat5 100 question\"",
-          "blue": "\"cat5 100 blue\"",
-          "orange": "cat5 100 orange",
-          "green": "cat5 100 green",
-          "yellow": "cat5 100 yellow",
-          "answer": "green"
-        },
-        "200": {
-          "question": "\"cat5 200 question\"",
-          "blue": "\"cat5 200 blue\"",
-          "orange": "cat5 200 orange",
-          "green": "cat5 200 green",
-          "yellow": "cat5 200 yellow",
-          "answer": "green"
-        },
-        "300": {
-          "question": "\"cat5 300 question\"",
-          "blue": "\"cat5 300 blue\"",
-          "orange": "cat5 300 orange",
-          "green": "cat5 300 green",
-          "yellow": "cat5 300 yellow",
-          "answer": "green"
-        },
-        "600": {
-          "question": "\"cat5 600 question\"",
-          "blue": "\"cat5 600 blue\"",
-          "orange": "cat5 600 orange",
-          "green": "cat5 600 green",
-          "yellow": "cat5 600 yellow",
-          "answer": "green"
-        },
-        "1000": {
-          "question": "\"cat5 1000 question\"",
-          "blue": "\"cat5 1000 blue\"",
-          "orange": "cat5 1000 orange",
-          "green": "cat5 1000 green",
-          "yellow": "cat5 1000 yellow",
-          "answer": "green"
-        }
-      }
-    }
-  }
+	"quiz": {
+		"categories": {
+			"Fiktionale Supercomputer": {
+				"100": {
+					"question": "cat1 100 question",
+					"blue": "cat1 100 blue",
+					"orange": "cat1 100 orange",
+					"green": "cat1 100 green",
+					"yellow": "cat1 100 yellow",
+					"answer": "green"
+				},
+				"200": {
+					"question": "cat1 200 question",
+					"blue": "cat1 200 blue",
+					"orange": "cat1 200 orange",
+					"green": "cat1 200 green",
+					"yellow": "cat1 200 yellow",
+					"answer": "green"
+				},
+				"300": {
+					"question": "cat1 300 question",
+					"blue": "cat1 300 blue",
+					"orange": "cat1 300 orange",
+					"green": "cat1 300 green",
+					"yellow": "cat1 300 yellow",
+					"answer": "green"
+				},
+				"600": {
+					"question": "cat1 600 question",
+					"blue": "cat1 600 blue",
+					"orange": "cat1 600 orange",
+					"green": "cat1 600 green",
+					"yellow": "cat1 600 yellow",
+					"answer": "green"
+				},
+				"1000": {
+					"question": "cat1 1000 question",
+					"blue": "cat1 1000 blue",
+					"orange": "cat1 1000 orange",
+					"green": "cat1 1000 green",
+					"yellow": "cat1 1000 yellow",
+					"answer": "green"
+				}
+			},
+			"Deutsche Game-Klassiker": {
+				"100": {
+					"question": "cat2 100 question",
+					"blue": "cat2 100 blue",
+					"orange": "cat2 100 orange",
+					"green": "cat2 100 green",
+					"yellow": "cat2 100 yellow",
+					"answer": "green"
+				},
+				"200": {
+					"question": "cat2 200 question",
+					"blue": "cat2 200 blue",
+					"orange": "cat2 200 orange",
+					"green": "cat2 200 green",
+					"yellow": "cat2 200 yellow",
+					"answer": "green"
+				},
+				"300": {
+					"question": "cat2 300 question",
+					"blue": "cat2 300 blue",
+					"orange": "cat2 300 orange",
+					"green": "cat2 300 green",
+					"yellow": "cat2 300 yellow",
+					"answer": "green"
+				},
+				"600": {
+					"question": "cat2 600 question",
+					"blue": "cat2 600 blue",
+					"orange": "cat2 600 orange",
+					"green": "cat2 600 green",
+					"yellow": "cat2 600 yellow",
+					"answer": "green"
+				},
+				"1000": {
+					"question": "cat2 1000 question",
+					"blue": "cat2 1000 blue",
+					"orange": "cat2 1000 orange",
+					"green": "cat2 1000 green",
+					"yellow": "cat2 1000 yellow",
+					"answer": "green"
+				}
+			},
+			"Dynamische Duos": {
+				"100": {
+					"question": "während der eine sich in pieplauten ausdrückt, beherrscht der andere fast 6 millionen sprachen.",
+					"blue": "chip und chap",
+					"orange": "wallace und gromit",
+					"green": "r2d2 und c3po",
+					"yellow": "sherlock und watson",
+					"answer": "green"
+				},
+				"200": {
+					"question": "cat3 200 question",
+					"blue": "cat3 200 blue",
+					"orange": "cat3 200 orange",
+					"green": "cat3 200 green",
+					"yellow": "cat3 200 yellow",
+					"answer": "green"
+				},
+				"300": {
+					"question": "cat3 300 question",
+					"blue": "cat3 300 blue",
+					"orange": "cat3 300 orange",
+					"green": "cat3 300 green",
+					"yellow": "cat3 300 yellow",
+					"answer": "green"
+				},
+				"600": {
+					"question": "cat3 600 question",
+					"blue": "cat3 600 blue",
+					"orange": "cat3 600 orange",
+					"green": "cat3 600 green",
+					"yellow": "cat3 600 yellow",
+					"answer": "green"
+				},
+				"1000": {
+					"question": "cat3 1000 question",
+					"blue": "cat3 1000 blue",
+					"orange": "cat3 1000 orange",
+					"green": "cat3 1000 green",
+					"yellow": "cat3 1000 yellow",
+					"answer": "green"
+				}
+			},
+			"Der Weltraum": {
+				"100": {
+					"question": "cat4 100 question",
+					"blue": "cat4 100 blue",
+					"orange": "cat4 100 orange",
+					"green": "cat4 100 green",
+					"yellow": "cat4 100 yellow",
+					"answer": "green"
+				},
+				"200": {
+					"question": "cat4 200 question",
+					"blue": "cat4 200 blue",
+					"orange": "cat4 200 orange",
+					"green": "cat4 200 green",
+					"yellow": "cat4 200 yellow",
+					"answer": "green"
+				},
+				"300": {
+					"question": "cat4 300 question",
+					"blue": "cat4 300 blue",
+					"orange": "cat4 300 orange",
+					"green": "cat4 300 green",
+					"yellow": "cat4 300 yellow",
+					"answer": "green"
+				},
+				"600": {
+					"question": "cat4 600 question",
+					"blue": "cat4 600 blue",
+					"orange": "cat4 600 orange",
+					"green": "cat4 600 green",
+					"yellow": "cat4 600 yellow",
+					"answer": "green"
+				},
+				"1000": {
+					"question": "cat4 1000 question",
+					"blue": "cat4 1000 blue",
+					"orange": "cat4 1000 orange",
+					"green": "cat4 1000 green",
+					"yellow": "cat4 1000 yellow",
+					"answer": "green"
+				}
+			},
+			"Zeichentrickserien": {
+				"100": {
+					"question": "cat5 100 question",
+					"blue": "cat5 100 blue",
+					"orange": "cat5 100 orange",
+					"green": "cat5 100 green",
+					"yellow": "cat5 100 yellow",
+					"answer": "green"
+				},
+				"200": {
+					"question": "cat5 200 question",
+					"blue": "cat5 200 blue",
+					"orange": "cat5 200 orange",
+					"green": "cat5 200 green",
+					"yellow": "cat5 200 yellow",
+					"answer": "green"
+				},
+				"300": {
+					"question": "cat5 300 question",
+					"blue": "cat5 300 blue",
+					"orange": "cat5 300 orange",
+					"green": "cat5 300 green",
+					"yellow": "cat5 300 yellow",
+					"answer": "green"
+				},
+				"600": {
+					"question": "cat5 600 question",
+					"blue": "cat5 600 blue",
+					"orange": "cat5 600 orange",
+					"green": "cat5 600 green",
+					"yellow": "cat5 600 yellow",
+					"answer": "green"
+				},
+				"1000": {
+					"question": "cat5 1000 question",
+					"blue": "cat5 1000 blue",
+					"orange": "cat5 1000 orange",
+					"green": "cat5 1000 green",
+					"yellow": "cat5 1000 yellow",
+					"answer": "green"
+				}
+			}
+		}
+	}
 }
