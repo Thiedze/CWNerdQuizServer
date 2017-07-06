@@ -1,5 +1,6 @@
 import json
 import os
+import codecs
 
 from cwbuzzer import Buzzer
 from cwplayer import Player
@@ -10,7 +11,21 @@ class Game():
 
 	def __init__(self):
 		self.players = []
-		self.buzzer = Buzzer()
+		self.buzzer = Buzzer(self.handleInput)
+		
+	def handleInput(self, data):
+		if data[3] == 0 and data[4] == 0:
+			print("server not send: %s" % data)
+		else:
+			print("server send: %s" % data)
+			response = { 
+				"action" : "controllerInput",
+				"input" : "{0},{1},{2}".format(data[3], data[4], data[5]).encode('utf-8')
+			}
+			self.webSocket.write_message(response)
+		
+	def getPlayerForInput(self, input):
+		return None;
 		
 	def setWebSocket(self, webSocket):
 		self.webSocket = webSocket
@@ -40,7 +55,7 @@ class Game():
 		for root, dirs, files in os.walk("quizzes"):
 			for file in files:
 				if file.endswith(".json") and file.split(".")[0] == quiz:
-					jsonFile = open(os.path.join(root, file)).read();
+					jsonFile = codecs.open(os.path.join(root, file), 'r', encoding='cp1252', errors='ignore').read();
 					quiz = Quiz(**json.loads(jsonFile)['quiz'])
 		response = { 
 			"action" : "selectQuiz",
