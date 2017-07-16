@@ -14,13 +14,13 @@ class Game():
 		self.buzzer = Buzzer(self.handleInput)
 		
 	def handleInput(self, data):
-		if data[3] == 0 and data[4] == 0:
-			print("server not send: %s" % data)
+		if data[3] == 0 and data[4] == 0 and data[5] - 240 == 0:
+			print("server not send: " + "[{0},{1},{2}]".format(data[3], data[4], data[5] - 240))
 		else:
-			print("server send: %s" % data)
+			print("server send: " + "[{0},{1},{2}]".format(data[3], data[4], data[5] - 240))
 			response = { 
 				"action" : "controllerInput",
-				"input" : "{0},{1},{2}".format(data[3], data[4], data[5]).encode('utf-8')
+				"input" : "{0},{1},{2}".format(data[3], data[4], data[5] - 240)
 			}
 			self.webSocket.write_message(response)
 		

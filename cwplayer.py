@@ -2,32 +2,32 @@ class Player():
 
 	startAddresses = [
 			{
-				"buzzerAddress" : "1,0,240",
-				"yellowAddress" : "2,0,240",
-				"greenAddress" : "4,0,240",
-				"orangeAddress" : "8,0,240",
-				"blueAddress" : "16,0,240"
+				"buzzerAddress" : "1,0,0",
+				"yellowAddress" : "2,0,0",
+				"greenAddress" : "4,0,0",
+				"orangeAddress" : "8,0,0",
+				"blueAddress" : "16,0,0"
 			},
 			{
-				"buzzerAddress" : "32,0,240",
-				"yellowAddress" : "64,0,240",
-				"greenAddress" : "128,0,240",
-				"orangeAddress" : "0,1,240",
-				"blueAddress" : "0,2,240"
+				"buzzerAddress" : "32,0,0",
+				"yellowAddress" : "64,0,0",
+				"greenAddress" : "128,0,0",
+				"orangeAddress" : "0,1,0",
+				"blueAddress" : "0,2,0"
 			},
 			{
-				"buzzerAddress" : "0,4,240",
-				"yellowAddress" : "0,8,240",
-				"greenAddress" : "0,16,240",
-				"orangeAddress" : "0,32,240",
-				"blueAddress" : "0,64,240"
+				"buzzerAddress" : "0,4,0",
+				"yellowAddress" : "0,8,0",
+				"greenAddress" : "0,16,0",
+				"orangeAddress" : "0,32,0",
+				"blueAddress" : "0,64,0"
 			},
 			{
-				"buzzerAddress" : "0,128,240",
-				"yellowAddress" : "0,1,241",
-				"greenAddress" : "0,2,241",
-				"orangeAddress" : "0,4,241",
-				"blueAddress" : "0,8,241"
+				"buzzerAddress" : "0,128,0",
+				"yellowAddress" : "0,0,8",
+				"greenAddress" : "0,0,4",
+				"orangeAddress" : "0,0,2",
+				"blueAddress" : "0,0,1"
 			}
 		]
 
